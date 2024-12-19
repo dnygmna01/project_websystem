@@ -1,0 +1,463 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#home{
+    padding-top: 1rem;
+    background-image: url(burger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+}
+.logo{
+    color: black;
+    transition: color 1s;
+}
+.lo{
+    color: black;
+}
+span{
+    font-weight: bold;
+    color: hsl(0, 85%, 50%);
+    transition: color 1s;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: hsl(0, 0%, 99%);
+    color: white;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+}
+.nav-links li{
+    margin-left: 20px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: color 1s;
+}
+a{
+    font-weight: bold;
+}
+.nav-links a:hover{
+    color: white;
+}
+.container1{
+    padding: 150px 50px;
+}
+h1{
+    color: white;
+}
+.home-content{
+    color: white;
+    width: 50%;
+}
+.top{
+    color: black;
+    padding: 150px 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+#menu{
+    text-align: center;
+    height: 100vh;
+    padding: 1px 0;
+    margin-top: 20px;
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+#div1 img{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 65%;
+
+}
+#div1 img:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out;
+}
+#burger{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#burger:hover{
+    background-color: rgb(212, 212, 28);
+}
+#div2 img{
+    background-color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 65%;
+
+}
+#div2 img:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out;
+}
+#pizza{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#pizza:hover{
+    background-color: rgb(212, 212, 28);
+}
+#div3 img{
+    background-color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 65%;
+
+}
+#div3 img:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out;
+}
+#sandwich{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#sandwich:hover{
+    background-color: rgb(212, 212, 28);
+}
+#best{
+    height: 110vh;
+    background-color: black;
+    padding-top: 50px;
+}
+.best-offer{
+    text-align: center;
+    color: rgb(255, 255, 29);
+}
+#chicken img{
+    width: 50%;
+    height: auto;
+    border-radius: 5%;
+}
+.best-offer1{
+    padding: 10px 20px;
+    display: flex;
+    gap: 5px;
+}
+.background{
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 47%;
+    height: 500px;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#chickens{
+    width: 100px;
+    height: 30px;
+}
+#chicken2{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+#chicken2:hover{
+    background-color: rgba(255, 255, 29, 0.932);
+    cursor: pointer;
+}
+.for-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#aboutus{
+    height: 100vh;
+    margin-top: 20px;
+}
+.contact-form{
+    width: 700px;
+    height: 500px;
+    background-color: hsl(240, 93%, 60%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#aboutus h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000000;
+}
+.form-group input,
+.form-group textarea {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color:  rgb(0, 0, 0);
+    outline: none;
+}
+.btn-submit {
+    width: 500px;
+    padding: 10px 15px;
+    background: rgb(0, 0, 0);
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background: rgba(0, 0, 0, 0.281);
+}
+.or{
+    font-size: 16px;
+    text-align: center;
+}
+.contactus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.contactus a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.contactus #contact:hover{
+    background-color: #0703038f;
+}
+
+
+
+
+@media (max-width: 480px) {
+    #menu{
+        height: 220vh;
+    }
+    #div1 img{
+        width: 60%;
+        height: auto;
+        border-radius: 10px;
+    }
+    #div2 img{
+        width: 60%;
+        height: auto;
+        border-radius: 10px;
+    }
+    #div3 img{
+        width: 60%;
+        height: auto;
+        border-radius: 10px;
+    }
+    #best{
+        height: 130vh;
+    }
+    .best-offer1{
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    .background{
+        height: 250px;
+        width: 80%;
+
+    }
+    #chicken img{
+        width: 100%;
+        height: auto;
+        border-radius: 5%;
+    }
+
+    .contact-form{
+        width: 400px;
+        height: 500px;
+        background-color: hsl(240, 86%, 60%);
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #aboutus h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #000000;
+    }
+    .form-group input,
+    .form-group textarea {
+        width: 300px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: border-color 0.3s ease;
+    }
+    .form-group input:focus,
+    .form-group textarea:focus {
+        border-color:  rgb(0, 0, 0);
+        outline: none;
+    }
+    .btn-submit {
+        width: 300px;
+        padding: 10px 15px;
+        background: rgb(0, 0, 0);
+        border: none;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .btn-submit:hover {
+        background: rgba(0, 0, 0, 0.281);
+    }
+    .or{
+        font-size: 16px;
+        text-align: center;
+    }
+    .contactus{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 12px;
+    }
+    .contactus a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+    
+}
+
+
+
+
+@media (max-width: 768px) {
+    #menu{
+        height: 220vh;
+    }
+    #div1 img{
+        width: 60%;
+        height: auto;
+        border-radius: 10px;
+    }
+    #div2 img{
+        width: 60%;
+        height: auto;
+        border-radius: 10px;
+    }
+    #div3 img{
+        width: 60%;
+        height: auto;
+        border-radius: 10px;
+    }
+    .best-offer1{
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .background{
+        height: 250px;
+        width: 80%;
+
+    }
+    #chicken img{
+        width: 100%;
+        height: auto;
+        border-radius: 5%;
+    }
+}
+
+@media (max-width: 1024px) {
+    #menu{
+        height: 220vh;
+    }
+    #div1 img{
+        width: 60%;
+        height: auto;
+        border-radius: 10px;
+    }
+    #div2 img{
+        width: 60%;
+        height: auto;
+        border-radius: 10px;
+    }
+    #div3 img{
+        width: 60%;
+        height: auto;
+        border-radius: 10px;
+    }
+    .best-offer1{
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .background{
+        height: 250px;
+        width: 80%;
+
+    }
+    #chicken img{
+        width: 100%;
+        height: auto;
+        border-radius: 5%;
+    }
+}
